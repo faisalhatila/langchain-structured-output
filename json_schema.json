@@ -1,0 +1,10 @@
+{
+    "title":"student",
+    "description":"schema abount students",
+    "tyoe":"object",
+    "properties":{
+        "name":"string",
+        "age":"integer"
+    },
+    "required":["name"]
+}
