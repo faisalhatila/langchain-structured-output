@@ -1,0 +1,7 @@
+Reviews: For Phone
+We send reviews to LLM and we need structured output like
+
+{
+    summary: .....,
+    sentiment: +ve, -ve, or nuetral
+}
