@@ -3,6 +3,11 @@ from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 load_dotenv()
 
+# llm = HuggingFaceEndpoint(
+#     repo_id="google/gemma-2-2b-it",
+#     task="text-generation"
+# )
+
 llm = HuggingFaceEndpoint(
     repo_id="HuggingFaceH4/zephyr-7b-beta",
     task="conversational"
